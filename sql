@@ -76,6 +76,66 @@ ORDER BY: Used to sort the result set in ascending or descending order.
 
 JOIN: Used to combine rows from two or more tables based on a related column between them.
 
+=================== Now i show that how we can create a table using sql==========================
+CREATE TABLE EMPLOYEE(
+    EMPLOYEE ID INT PRIMARY KEY,
+    FIRSTNAME VARCHAR(20),
+    LASTNAME VARCHAR(20),
+    DEPARTMENT VARCHAR(20),
+    SALARY DECIMAL(10,2)
+    );
+
+
+INSERT INTO CUSTOMER(CUSTOMER ID,FIRSTNAME,LASTNAME,DEPARTMENT,SALARY)
+VALUE(1,'RIJU','MANDAL','IT','8324532',R),
+     (1,'RIJU','MANDAL','IT','8324532',R),
+     (1,'RIJU','MANDAL','IT','8324532',R),
+     (1,'RIJU','MANDAL','IT','8324532',R),
+     (1,'RIJU','MANDAL','IT','8324532',R),
+
+
+======================== clause in sql ===================
+1) where clause used for fetching filter data in result set
+2) Also there Having clause ,order by have to be placed after having clause
+3)order by clause
+4)group by clause
+
+===================== Various Aggregate Functions  ==================
+
+Count()
+Sum()
+Avg()
+Min()
+Max()
+
+=======================================================================
+PRIMARY KEY is a column that uniquely identified coloumn and it is not null must be unique value
+
+FOREIGN KEY is a coloumn or combination of coloumn that establish the link between two table .
+
+===================================== JOINS =================
+join means combines two or more table based on common field between them.
+
+Type of join in sql =>
+INNER JOIN
+LEFT JOIN
+RIGHT  JOIN
+FULL  JOIN
+NATURAL JOIN
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
